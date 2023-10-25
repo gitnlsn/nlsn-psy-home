@@ -72,7 +72,7 @@ export default function Home() {
         <>
           <HorizontalDivisor className="m-24" />
 
-          <h1 className="text-5xl">Últimos Depoimentos</h1>
+          <h1 className="text-5xl text-center">Últimos Depoimentos</h1>
 
           <HorizontalDivisor className="border-t-0 m-12" />
 
