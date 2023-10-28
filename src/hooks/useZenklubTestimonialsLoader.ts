@@ -22,10 +22,6 @@ export const useZenklubTestimonialsLoader = () => {
     .sort((left, right) => right.date.getTime() - left.date.getTime())
     .slice(0, 6);
 
-  console.log({
-    testimonies,
-    selectedTestimonies,
-  });
 
   useEffect(() => {
     fetch(

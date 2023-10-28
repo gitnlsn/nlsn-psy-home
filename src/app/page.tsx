@@ -30,8 +30,6 @@ export default function Home() {
     slugId: "nelson-kenzo-tamashiro",
   });
 
-  console.log({ profile });
-
   return (
     <main className="flex flex-col items-center">
       <PresetantionCard />
